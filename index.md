@@ -4,8 +4,6 @@ layout: default
 
 # Analog Synthesizer Project
 
-An experimental analog synthesizer designed and built from discrete analog circuitry and controlled using an RP2350-based embedded system.
-
 ---
 
 ## Demo Video
@@ -29,6 +27,9 @@ This project consists of an analog synthesizer with a Voltage Controlled Oscilla
 
 ![FullProjectImage](images/FullProjectImage.jpeg)
 
+## KiCAD Full Schematic
+
+![KiCADFullSchematic](images/Complete_Blueprint_Kicad.png)
 
 ---
 
