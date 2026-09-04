@@ -23,10 +23,11 @@ An experimental analog synthesizer designed and built from discrete analog circu
 
 ---
 
-## Project Overview
+### Project Overview
 
 This project consists of an analog synthesizer with a Voltage Controlled Oscillator (VCO), a Voltage Controlled Filter (VCF) and a Voltage Controlled Amplifier (VCA) all designed to accept Control Voltages (CV) from microcontrollers.
 
+![FullProjectImage](images/FullProjectImage.jpeg)
 
 
 ---
@@ -57,4 +58,4 @@ In order to fulfill the intended "organic" characteristics of the synthesizer, t
 ### Resonance
 ![Resonance](images/AD_Example_Resonance.png)
 
-**Notice how the shape of the sound without the filter produces hard trapezoidal waveforms. Adding the VCF smooths this out, reducing the "buzzier" sound of a sawtooth, and with full resonance transforming it into pseudo-sinosoidal waves
+**Notice how the shape of the sound without the filter produces hard trapezoidal waveforms. Adding the VCF smooths this out, reducing the "buzzier" sound of a sawtooth, and with full resonance transforming it into pseudo-sinosoidal waves.
