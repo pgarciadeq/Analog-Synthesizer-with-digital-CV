@@ -25,43 +25,8 @@ An experimental analog synthesizer designed and built from discrete analog circu
 
 ## Project Overview
 
-This project involved the design and construction of an analog synthesizer along with a custom embedded control system.
+This project consists of an analog synthesizer with a Voltage Controlled Oscillator (VCO), a Voltage Controlled Filter (VCF) and a Voltage Controlled Amplifier (VCA) all designed to accept Control Voltages (CV) from microcontrollers.
 
-The controller uses an **RP2350 microcontroller** to interface digital controls with the analog synthesizer circuitry.
 
-### Key Technologies
-
-- RP2350 microcontroller
-- Raspberry Pi Pico SDK
-- C/C++
-- MCP4725 DACs
-- I²C communication
-- ADC feedback
-- Button matrix
-- Analog filters and amplifiers
-- Control-voltage generation
 
 ---
-
-## System Architecture
-
-The embedded controller translates user input into analog control voltages used by the synthesizer.
-
-```text
-Button Matrix
-      │
-      ▼
-    RP2350
-      │
-      │ I²C
-      ▼
-   MCP4725
-      │
-      ▼
-Control Voltage
-      │
-      ▼
-Analog Synthesizer
-      │
-      ▼
-    Audio
