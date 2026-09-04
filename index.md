@@ -30,3 +30,23 @@ This project consists of an analog synthesizer with a Voltage Controlled Oscilla
 
 
 ---
+
+## Attack / Decay Examples
+
+### Attack Full, Delay Short
+![Attack Full, Delay Short](images/AD_Example_AttackFull_DelayShort.png)
+
+### Attack Short, Delay Full
+![Attack Short, Delay Full](images/AD_Example_AttackShort_DelayFull.png)
+
+### Attack Full, Delay Full
+![Attack Full, Delay Full](images/AD_Example_BothFull.png)
+
+### Attack Short, Delay Short
+![Attack Short, Delay Short](images/AD_Example_BothShort.png)
+
+### No Resonance
+![No Resonance](images/AD_Example_NoResonance.png)
+
+### Resonance
+![Resonance](images/AD_Example_Resonance.png)
