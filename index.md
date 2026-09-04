@@ -31,19 +31,25 @@ This project consists of an analog synthesizer with a Voltage Controlled Oscilla
 
 ---
 
-## Attack / Decay Examples
+## Attack / Decay 
+Attack and Decay represent the time related control voltages of the VCF and VCA which are calculated and transmitted by the microcontroller using external DAC modules.
+Attack indicates how fast the filter or amplifier opens when a key is pressed and decay is for how fast they close.
 
-### Attack Full, Delay Short
+### Fast Attack, Fast Decay
+![Attack Short, Delay Short](images/AD_Example_BothShort.png)
+
+### Long Attack, Fast Decay
 ![Attack Full, Delay Short](images/AD_Example_AttackFull_DelayShort.png)
 
-### Attack Short, Delay Full
+### Fast Attack, Long Decay
 ![Attack Short, Delay Full](images/AD_Example_AttackShort_DelayFull.png)
 
-### Attack Full, Delay Full
+### Long Attack, Long Decay.
 ![Attack Full, Delay Full](images/AD_Example_BothFull.png)
 
-### Attack Short, Delay Short
-![Attack Short, Delay Short](images/AD_Example_BothShort.png)
+## Filter Resonance
+
+In order to fulfill the intended "organic" characteristics of the synthesizer, the VCF uses a complex of different colored diodes in its feedback loop that introduce soft clipping determined by the forward voltage of the diodes. The diodes make the sound warmer, and the resonance introduced creates fun rubber band styled sounds.
 
 ### No Resonance
 ![No Resonance](images/AD_Example_NoResonance.png)
