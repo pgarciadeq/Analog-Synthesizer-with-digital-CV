@@ -35,7 +35,7 @@ This project consists of an analog synthesizer with a Voltage Controlled Oscilla
 ![VCO_Schematic](images/VCO_Kicad.png)
 
 ## VCF Schematic
-![VCF_Schematic](images/VCF_Schematic.png)
+![VCF_Schematic](images/VCF_Kicad.png)
 
 ## VCA Schematic
 ![VCA_Schematic](images/VCA_Kicad.png)
