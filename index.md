@@ -69,3 +69,8 @@ In order to fulfill the intended "organic" characteristics of the synthesizer, t
 ![Resonance](images/AD_Example_Resonance.png)
 
 **Notice how the shape of the sound without the filter produces hard trapezoidal waveforms. Adding the VCF smooths this out, reducing the "buzzier" sound of a sawtooth, and with full resonance transforming it into pseudo-sinosoidal waves.
+
+---
+
+## HARDWARE
+
