@@ -1,4 +1,4 @@
 theme: jekyll-theme-cayman
 
 title: Analog Synthesizer Project
-description: RP2350-based analog synthesizer and embedded control system
+description: PIC18F4331-based CV controller for  analog synthesizer 
