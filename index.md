@@ -72,5 +72,5 @@ In order to fulfill the intended "organic" characteristics of the synthesizer, t
 
 ---
 
-## HARDWARE
+
 
